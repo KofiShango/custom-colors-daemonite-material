@@ -6,7 +6,7 @@ This repository provides templates for easily changing the branding colors for y
 
 ```json
   "dependencies": {
-    "daemointe-colors": "git+https://github.com/KofiShango/custom-colors-daemonite-material.git"
+    "daemonite-colors": "git+https://github.com/KofiShango/custom-colors-daemonite-material.git"
   }
 ```
 
@@ -73,3 +73,11 @@ Link this new file after the theme files.
     <!-- brand.css goes after these -->
     <link href="path/to/brand.css" rel="stylesheet"/>
 ```
+
+## Resources
+
+Some resources to help you with material design branding
+
+* [Daemonite Material Theming](http://daemonite.github.io/material/docs/4.1/getting-started/theming/)
+* [Material Design Color Tool](https://material.io/tools/color/#!/?view.left=0&view.right=0)
+* [Material Design Color System](https://material.io/design/color/the-color-system.html)
