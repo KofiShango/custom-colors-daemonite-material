@@ -1,0 +1,47 @@
+{
+  "name": "custom-colors-daemonite-material",
+  "version": "0.1.0",
+  "description": "Customize colors in your Daemonite Material project",
+  "browserslist": [
+    "last 1 major version",
+    ">= 1%",
+    "Android >= 4.4",
+    "Chrome >= 45",
+    "Edge >= 12",
+    "Explorer >= 10",
+    "Firefox >= 38",
+    "iOS >= 9",
+    "Opera >= 30",
+    "Safari >= 9"
+  ],
+  "engines": {
+    "node": ">=6"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "daemonite-material": "^4.1.1"
+  },
+  "keywords": [
+    "bootstrap",
+    "css",
+    "framework",
+    "front-end",
+    "html",
+    "material",
+    "daemonite"
+  ],
+  "main": " ",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KofiShango/custom-colors-daemonite-material.git"
+  },
+  "author": "Kofi Shango",
+  "bugs": {
+    "url": "https://github.com/KofiShango/custom-colors-daemonite-material/issues"
+  },
+  "homepage": "https://github.com/KofiShango/custom-colors-daemonite-material#readme"
+}
