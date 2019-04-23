@@ -1,0 +1,240 @@
+:root {
+  --danger: #f44336;
+  --danger-dark: #d32f2f;
+  --danger-light: #ffcdd2;
+}
+
+.alert-danger {
+  background-color: var(--danger-light);
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.badge-danger {
+  background-color: var(--danger);
+  color: white;
+}
+
+.badge-danger[href]:active, .badge-danger[href]:focus, .badge-danger[href]:hover {
+  background-color: var(--danger-dark);
+  color: white;
+  text-decoration: none;
+}
+
+.btn-danger {
+  background-color: var(--danger);
+  color: white;
+}
+
+.btn-danger.active, .btn-danger:active {
+  background-color: var(--danger-dark);
+}
+
+.btn-flat-danger, .btn-flat-danger:active, .btn-flat-danger:focus, .btn-flat-danger:hover,
+.btn-outline-danger,
+.btn-outline-danger:active,
+.btn-outline-danger:focus,
+.btn-outline-danger:hover {
+  color: var(--danger);
+}
+.btn-group > .btn-danger.disabled, .btn-group > .btn-danger:disabled,
+.btn-group-vertical > .btn-danger.disabled,
+.btn-group-vertical > .btn-danger:disabled {
+  background-color: var(--danger-light);
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.card.border-danger {
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.14), 0 3px 4px 0 rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px var(--danger);
+}
+
+.card.border-danger[href]:active, .card.border-danger[href]:focus, .card.border-danger[href]:hover, .card.border-danger[tabindex]:active, .card.border-danger[tabindex]:focus, .card.border-danger[tabindex]:hover {
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 3px rgba(0, 0, 0, 0.12), 0 4px 15px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px var(--danger);
+}
+
+.chip-danger {
+  background-color: var(--danger);
+  color: white;
+}
+
+.table-hover .table-danger:hover,
+.table-hover .table-danger:hover > td,
+.table-hover .table-danger:hover > th {
+  background-color: var(--danger);
+  color: white;
+}
+
+.table-danger,
+.table-danger > td,
+.table-danger > th {
+  background-color: var(--danger-light);
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.modal-footer .btn-danger, .modal-footer .btn-danger:active, .modal-footer .btn-danger:focus, .modal-footer .btn-danger:hover {
+  color: var(--danger);
+}
+
+.list-group-item-danger.active {
+  background-color: var(--danger);
+  color: white;
+}
+
+.list-group-item-danger {
+  background-color: var(--danger-light);
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.list-group-item-danger.list-group-item-action:active, .list-group-item-danger.list-group-item-action:focus, .list-group-item-danger.list-group-item-action:hover {
+  background-color: var(--danger);
+  color: white;
+}
+
+.progress-bar.bg-danger {
+  background-color: transparent !important;
+  border-bottom-color: var(--danger);
+}
+
+.progress-bar.bg-danger::after {
+  background-color: var(--danger-light);
+}
+
+.progress-bar-animated.bg-danger::before,
+.progress-bar-striped.bg-danger::before {
+  background-image: repeating-radial-gradient(0.125rem 0.125rem, var(--danger-light), var(--danger-light) 0.125rem, transparent 0.125rem, transparent 100%);
+  background-image: -webkit-repeating-radial-gradient(0.125rem 0.125rem, var(--danger-light), var(--danger-light) 0.125rem, transparent 0.125rem, transparent 100%);
+  background-image: -moz-repeating-radial-gradient(0.125rem 0.125rem, var(--danger-light), var(--danger-light) 0.125rem, transparent 0.125rem, transparent 100%);
+}
+
+.progress-bar-indeterminate.bg-danger::after, .progress-bar-indeterminate.bg-danger::before {
+  background-color: var(--danger);
+}
+
+.progress-bar-indeterminate.bg-danger {
+  border-bottom-color: var(--danger-light);
+}
+
+.progress-circular-danger .progress-circular-gap,
+.progress-circular-danger .progress-circular-spinner {
+  border-top-color: var(--danger);
+}
+
+.progress-circular-danger .progress-circular-left .progress-circular-spinner {
+  border-left-color: var(--danger);
+}
+
+.progress-circular-danger .progress-circular-right .progress-circular-spinner {
+  border-right-color: var(--danger);
+}
+
+.invalid-feedback {
+  color: var(--danger);
+}
+
+.invalid-tooltip {
+  background-color: var(--danger);
+  color: white;
+}
+
+.custom-control-input.is-invalid ~ .custom-control-label, .custom-control-input.is-invalid ~ .custom-control-label::after,
+.was-validated .custom-control-input:invalid ~ .custom-control-label,
+.was-validated .custom-control-input:invalid ~ .custom-control-label::after {
+  color: var(--danger);
+}
+
+.custom-control-input.is-invalid ~ .custom-control-label::before,
+.was-validated .custom-control-input:invalid ~ .custom-control-label::before {
+  background-color: var(--danger);
+}
+
+.custom-file-input.is-invalid:focus ~ .custom-file-label, .custom-file-input.is-invalid:hover ~ .custom-file-label,
+.was-validated .custom-file-input:invalid:focus ~ .custom-file-label,
+.was-validated .custom-file-input:invalid:hover ~ .custom-file-label {
+  border-bottom-color: var(--danger);
+  box-shadow: inset 0 -2px 0 -1px var(--danger);
+}
+
+.custom-file-input.is-invalid ~ .custom-file-label,
+.was-validated .custom-file-input:invalid ~ .custom-file-label {
+  border-bottom-color: var(--danger);
+}
+
+.custom-file-input.is-invalid ~ .custom-file-label:hover,
+.was-validated .custom-file-input:invalid ~ .custom-file-label:hover {
+  border-bottom-color: var(--danger);
+  box-shadow: inset 0 -2px 0 -1px var(--danger);
+}
+
+.custom-switch .custom-control-input.is-invalid ~ .custom-control-label::after,
+.was-validated .custom-switch .custom-control-input:invalid ~ .custom-control-label::after {
+  background-color: var(--danger);
+}
+
+.form-check-input.is-invalid + .form-check-label,
+.was-validated .form-check-input:invalid + .form-check-label {
+  color: var(--danger);
+}
+
+.is-invalid.form-control, .is-invalid.custom-select, .is-invalid.form-control-file,
+.was-validated .form-control:invalid,
+.was-validated .custom-select:invalid,
+.was-validated .form-control-file:invalid {
+  border-color: var(--danger);
+}
+
+.is-invalid.form-control:focus, .is-invalid.custom-select:focus, .is-invalid.form-control-file:focus, .is-invalid.form-control:hover, .is-invalid.custom-select:hover, .is-invalid.form-control-file:hover,
+.was-validated .form-control:invalid:focus,
+.was-validated .custom-select:invalid:focus,
+.was-validated .form-control-file:invalid:focus,
+.was-validated .form-control:invalid:hover,
+.was-validated .custom-select:invalid:hover,
+.was-validated .form-control-file:invalid:hover {
+  border-color: var(--danger);
+  box-shadow: inset 0 -2px 0 -1px var(--danger);
+}
+
+select.is-invalid.form-control:focus[multiple], select.is-invalid.form-control:focus[size]:not([size='1']), textarea.is-invalid.form-control:focus:not([rows='1']), .is-invalid.custom-select:focus[multiple], .is-invalid.custom-select:focus[size]:not([size='1']), select.is-invalid.form-control:hover[multiple], select.is-invalid.form-control:hover[size]:not([size='1']), textarea.is-invalid.form-control:hover:not([rows='1']), .is-invalid.custom-select:hover[multiple], .is-invalid.custom-select:hover[size]:not([size='1']),
+.was-validated select.form-control:invalid:focus[multiple],
+.was-validated select.form-control:invalid:focus[size]:not([size='1']),
+.was-validated textarea.form-control:invalid:focus:not([rows='1']),
+.was-validated .custom-select:invalid:focus[multiple],
+.was-validated .custom-select:invalid:focus[size]:not([size='1']),
+.was-validated select.form-control:invalid:hover[multiple],
+.was-validated select.form-control:invalid:hover[size]:not([size='1']),
+.was-validated textarea.form-control:invalid:hover:not([rows='1']),
+.was-validated .custom-select:invalid:hover[multiple],
+.was-validated .custom-select:invalid:hover[size]:not([size='1']) {
+  box-shadow: inset 2px 2px 0 -1px var(--danger), inset -2px -2px 0 -1px var(--danger);
+}
+
+.textfield-box select.is-invalid.form-control:focus[multiple], .textfield-box select.is-invalid.form-control:focus[size]:not([size='1']), .textfield-box textarea.is-invalid.form-control:focus:not([rows='1']), .textfield-box .is-invalid.custom-select:focus[multiple], .textfield-box .is-invalid.custom-select:focus[size]:not([size='1']), .textfield-box select.is-invalid.form-control:hover[multiple], .textfield-box select.is-invalid.form-control:hover[size]:not([size='1']), .textfield-box textarea.is-invalid.form-control:hover:not([rows='1']), .textfield-box .is-invalid.custom-select:hover[multiple], .textfield-box .is-invalid.custom-select:hover[size]:not([size='1']),
+.was-validated .textfield-box select.form-control:invalid:focus[multiple],
+.was-validated .textfield-box select.form-control:invalid:focus[size]:not([size='1']),
+.was-validated .textfield-box textarea.form-control:invalid:focus:not([rows='1']),
+.was-validated .textfield-box .custom-select:invalid:focus[multiple],
+.was-validated .textfield-box .custom-select:invalid:focus[size]:not([size='1']),
+.was-validated .textfield-box select.form-control:invalid:hover[multiple],
+.was-validated .textfield-box select.form-control:invalid:hover[size]:not([size='1']),
+.was-validated .textfield-box textarea.form-control:invalid:hover:not([rows='1']),
+.was-validated .textfield-box .custom-select:invalid:hover[multiple],
+.was-validated .textfield-box .custom-select:invalid:hover[size]:not([size='1']) {
+  box-shadow: inset 0 -2px 0 -1px var(--danger);
+}
+
+.border-danger {
+  border-color: var(--danger) !important;
+}
+
+.bg-danger {
+  background-color: var(--danger) !important;
+}
+a.bg-danger:active, a.bg-danger:focus, a.bg-danger:hover {
+  background-color: var(--danger-dark) !important;
+}
+
+.text-danger {
+  color: var(--danger) !important;
+}
+
+a.text-danger:active, a.text-danger:focus, a.text-danger:hover {
+  color: var(--danger-dark) !important;
+}

@@ -1,0 +1,245 @@
+:root {
+  --success: #4caf50;
+  --success-dark: #388e3c;
+  --success-light: #c8e6c9;
+}
+
+.alert-success {
+  background-color: var(--success-light);
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.badge-success {
+  background-color: var(--success);
+  color: white;
+}
+
+.badge-success[href]:active, .badge-success[href]:focus, .badge-success[href]:hover {
+  background-color: var(--success-dark);
+  color: white;
+}
+
+.btn-success {
+  background-color: var(--success);
+  color: white;
+}
+
+.btn-success.active, .btn-success:active {
+  background-color: var(--success-dark);
+}
+
+.btn-flat-success, .btn-flat-success:active, .btn-flat-success:focus, .btn-flat-success:hover,
+.btn-outline-success,
+.btn-outline-success:active,
+.btn-outline-success:focus,
+.btn-outline-success:hover {
+  color: var(--success);
+}
+
+.btn-group > .btn-success.disabled, .btn-group > .btn-success:disabled,
+.btn-group-vertical > .btn-success.disabled,
+.btn-group-vertical > .btn-success:disabled {
+  background-color: var(--success-light);
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.card.border-success {
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.14), 0 3px 4px 0 rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px var(--success);
+}
+
+.card.border-success[href]:active, .card.border-success[href]:focus, .card.border-success[href]:hover, .card.border-success[tabindex]:active, .card.border-success[tabindex]:focus, .card.border-success[tabindex]:hover {
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 3px rgba(0, 0, 0, 0.12), 0 4px 15px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px var(--success);
+}
+
+.chip-success {
+  background-color: var(--success);
+  color: white;
+}
+
+.table-hover .table-success:hover,
+.table-hover .table-success:hover > td,
+.table-hover .table-success:hover > th {
+  background-color: var(--success);
+  color: white;
+}
+
+
+.table-success,
+.table-success > td,
+.table-success > th {
+  background-color: var(--success-light);
+  color: rgba(0, 0, 0, 0.87);
+}
+
+
+.modal-footer .btn-success, .modal-footer .btn-success:active, .modal-footer .btn-success:focus, .modal-footer .btn-success:hover {
+  color: var(--success);
+}
+
+.list-group-item-success.active {
+  background-color: var(--success);
+  color: white;
+}
+
+.list-group-item-success {
+  background-color: var(--success-light);
+  color: rgba(0, 0, 0, 0.87);
+}
+
+
+.list-group-item-success.list-group-item-action:active, .list-group-item-success.list-group-item-action:focus, .list-group-item-success.list-group-item-action:hover {
+  background-color: var(--success);
+  color: white;
+}
+
+.progress-bar.bg-success {
+  background-color: transparent !important;
+  border-bottom-color: var(--success);
+}
+
+.progress-bar.bg-success::after {
+  background-color: var(--success-light);
+}
+
+.progress-bar-animated.bg-success::before,
+.progress-bar-striped.bg-success::before {
+  background-image: repeating-radial-gradient(0.125rem 0.125rem, var(--success-light), var(--success-light) 0.125rem, transparent 0.125rem, transparent 100%);
+  background-image: -webkit-repeating-radial-gradient(0.125rem 0.125rem, var(--success-light), var(--success-light) 0.125rem, transparent 0.125rem, transparent 100%);
+  background-image: -moz-repeating-radial-gradient(0.125rem 0.125rem, var(--success-light), var(--success-light) 0.125rem, transparent 0.125rem, transparent 100%);
+}
+
+.progress-bar-indeterminate.bg-success::after, .progress-bar-indeterminate.bg-success::before {
+  background-color: var(--success);
+}
+
+.progress-bar-indeterminate.bg-success {
+  border-bottom-color: var(--success-light);
+}
+
+.progress-circular-success .progress-circular-gap,
+.progress-circular-success .progress-circular-spinner {
+  border-top-color: var(--success);
+}
+
+.progress-circular-success .progress-circular-left .progress-circular-spinner {
+  border-left-color: var(--success);
+}
+
+.progress-circular-success .progress-circular-right .progress-circular-spinner {
+  border-right-color: var(--success);
+}
+
+.valid-feedback {
+  color: var(--success);
+}
+
+
+.valid-tooltip {
+  background-color: var(--success);
+  color: white;
+}
+
+.custom-control-input.is-valid ~ .custom-control-label, .custom-control-input.is-valid ~ .custom-control-label::after,
+.was-validated .custom-control-input:valid ~ .custom-control-label,
+.was-validated .custom-control-input:valid ~ .custom-control-label::after {
+  color: var(--success);
+}
+
+.custom-control-input.is-valid ~ .custom-control-label::before,
+.was-validated .custom-control-input:valid ~ .custom-control-label::before {
+  background-color: var(--success);
+}
+
+.custom-file-input.is-valid:focus ~ .custom-file-label, .custom-file-input.is-valid:hover ~ .custom-file-label,
+.was-validated .custom-file-input:valid:focus ~ .custom-file-label,
+.was-validated .custom-file-input:valid:hover ~ .custom-file-label {
+  border-bottom-color: var(--success);
+  box-shadow: inset 0 -2px 0 -1px var(--success);
+}
+
+.custom-file-input.is-valid ~ .custom-file-label,
+.was-validated .custom-file-input:valid ~ .custom-file-label {
+  border-bottom-color: var(--success);
+}
+
+.custom-file-input.is-valid ~ .custom-file-label:hover,
+.was-validated .custom-file-input:valid ~ .custom-file-label:hover {
+  border-bottom-color: var(--success);
+  box-shadow: inset 0 -2px 0 -1px var(--success);
+}
+
+.custom-switch .custom-control-input.is-valid ~ .custom-control-label::after,
+.was-validated .custom-switch .custom-control-input:valid ~ .custom-control-label::after {
+  background-color: var(--success);
+}
+
+.form-check-input.is-valid + .form-check-label,
+.was-validated .form-check-input:valid + .form-check-label {
+  color: var(--success);
+}
+
+.is-valid.form-control, .is-valid.custom-select, .is-valid.form-control-file,
+.was-validated .form-control:valid,
+.was-validated .custom-select:valid,
+.was-validated .form-control-file:valid {
+  border-color: var(--success);
+}
+
+.is-valid.form-control:focus, .is-valid.custom-select:focus, .is-valid.form-control-file:focus, .is-valid.form-control:hover, .is-valid.custom-select:hover, .is-valid.form-control-file:hover,
+.was-validated .form-control:valid:focus,
+.was-validated .custom-select:valid:focus,
+.was-validated .form-control-file:valid:focus,
+.was-validated .form-control:valid:hover,
+.was-validated .custom-select:valid:hover,
+.was-validated .form-control-file:valid:hover {
+  border-color: var(--success);
+  box-shadow: inset 0 -2px 0 -1px var(--success);
+}
+
+select.is-valid.form-control:focus[multiple], select.is-valid.form-control:focus[size]:not([size='1']), textarea.is-valid.form-control:focus:not([rows='1']), .is-valid.custom-select:focus[multiple], .is-valid.custom-select:focus[size]:not([size='1']), select.is-valid.form-control:hover[multiple], select.is-valid.form-control:hover[size]:not([size='1']), textarea.is-valid.form-control:hover:not([rows='1']), .is-valid.custom-select:hover[multiple], .is-valid.custom-select:hover[size]:not([size='1']),
+.was-validated select.form-control:valid:focus[multiple],
+.was-validated select.form-control:valid:focus[size]:not([size='1']),
+.was-validated textarea.form-control:valid:focus:not([rows='1']),
+.was-validated .custom-select:valid:focus[multiple],
+.was-validated .custom-select:valid:focus[size]:not([size='1']),
+.was-validated select.form-control:valid:hover[multiple],
+.was-validated select.form-control:valid:hover[size]:not([size='1']),
+.was-validated textarea.form-control:valid:hover:not([rows='1']),
+.was-validated .custom-select:valid:hover[multiple],
+.was-validated .custom-select:valid:hover[size]:not([size='1']) {
+  box-shadow: inset 2px 2px 0 -1px var(--success), inset -2px -2px 0 -1px var(--success);
+}
+
+.textfield-box select.is-valid.form-control:focus[multiple], .textfield-box select.is-valid.form-control:focus[size]:not([size='1']), .textfield-box textarea.is-valid.form-control:focus:not([rows='1']), .textfield-box .is-valid.custom-select:focus[multiple], .textfield-box .is-valid.custom-select:focus[size]:not([size='1']), .textfield-box select.is-valid.form-control:hover[multiple], .textfield-box select.is-valid.form-control:hover[size]:not([size='1']), .textfield-box textarea.is-valid.form-control:hover:not([rows='1']), .textfield-box .is-valid.custom-select:hover[multiple], .textfield-box .is-valid.custom-select:hover[size]:not([size='1']),
+.was-validated .textfield-box select.form-control:valid:focus[multiple],
+.was-validated .textfield-box select.form-control:valid:focus[size]:not([size='1']),
+.was-validated .textfield-box textarea.form-control:valid:focus:not([rows='1']),
+.was-validated .textfield-box .custom-select:valid:focus[multiple],
+.was-validated .textfield-box .custom-select:valid:focus[size]:not([size='1']),
+.was-validated .textfield-box select.form-control:valid:hover[multiple],
+.was-validated .textfield-box select.form-control:valid:hover[size]:not([size='1']),
+.was-validated .textfield-box textarea.form-control:valid:hover:not([rows='1']),
+.was-validated .textfield-box .custom-select:valid:hover[multiple],
+.was-validated .textfield-box .custom-select:valid:hover[size]:not([size='1']) {
+  box-shadow: inset 0 -2px 0 -1px var(--success);
+}
+
+.border-success {
+  border-color: var(--success) !important;
+}
+
+.bg-success {
+  background-color: var(--success) !important;
+}
+
+a.bg-success:active, a.bg-success:focus, a.bg-success:hover {
+  background-color: var(--success-dark) !important;
+}
+
+.text-success {
+  color: var(--success) !important;
+}
+
+a.text-success:active, a.text-success:focus, a.text-success:hover {
+  color: var(--success-dark) !important;
+}

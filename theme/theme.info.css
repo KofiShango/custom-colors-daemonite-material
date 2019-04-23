@@ -1,0 +1,148 @@
+:root {
+  --info: #2196f3;
+  --info-dark: #1976d2;
+  --info-light: #bbdefb;
+}
+
+.alert-info {
+  background-color: var(--info-light);
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.badge-info {
+  background-color: var(--info);
+  color: white;
+}
+
+.badge-info[href]:active, .badge-info[href]:focus, .badge-info[href]:hover {
+  background-color: var(--info-dark);
+  color: white;
+  text-decoration: none;
+}
+
+.btn-info {
+  background-color: var(--info);
+  color: white;
+}
+
+.btn-flat-info, .btn-flat-info:active, .btn-flat-info:focus, .btn-flat-info:hover,
+.btn-outline-info,
+.btn-outline-info:active,
+.btn-outline-info:focus,
+.btn-outline-info:hover {
+  color: var(--info);
+}
+
+.btn-group > .btn-info.disabled, .btn-group > .btn-info:disabled,
+.btn-group-vertical > .btn-info.disabled,
+.btn-group-vertical > .btn-info:disabled {
+  background-color: var(--info-light);
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.btn-info.active, .btn-info:active {
+  background-color: var(--info-dark);
+}
+
+.card.border-info {
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.14), 0 3px 4px 0 rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px var(--info);
+}
+
+.card.border-info[href]:active, .card.border-info[href]:focus, .card.border-info[href]:hover, .card.border-info[tabindex]:active, .card.border-info[tabindex]:focus, .card.border-info[tabindex]:hover {
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 3px rgba(0, 0, 0, 0.12), 0 4px 15px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px var(--info);
+}
+
+.chip-info {
+  background-color: var(--info);
+  color: white;
+}
+
+.table-hover .table-info:hover,
+.table-hover .table-info:hover > td,
+.table-hover .table-info:hover > th {
+  background-color: var(--info);
+  color: white;
+}
+
+.table-info,
+.table-info > td,
+.table-info > th {
+  background-color: var(--info-light);
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.modal-footer .btn-info, .modal-footer .btn-info:active, .modal-footer .btn-info:focus, .modal-footer .btn-info:hover {
+  color: var(--info);
+}
+
+.list-group-item-info.active {
+  background-color: var(--info);
+  color: white;
+}
+
+.list-group-item-info.list-group-item-action:active, .list-group-item-info.list-group-item-action:focus, .list-group-item-info.list-group-item-action:hover {
+  background-color: var(--info);
+  color: white;
+}
+
+.list-group-item-info {
+  background-color: var(--info-light);
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.progress-bar.bg-info {
+  background-color: transparent !important;
+  border-bottom-color: var(--info);
+}
+
+.progress-bar.bg-info::after {
+  background-color: var(--info-light);
+}
+
+.progress-bar-animated.bg-info::before,
+.progress-bar-striped.bg-info::before {
+  background-image: repeating-radial-gradient(0.125rem 0.125rem, var(--info-light), var(--info-light) 0.125rem, transparent 0.125rem, transparent 100%);
+  background-image: -webkit-repeating-radial-gradient(0.125rem 0.125rem, var(--info-light), var(--info-light) 0.125rem, transparent 0.125rem, transparent 100%);
+  background-image: -moz-repeating-radial-gradient(0.125rem 0.125rem, var(--info-light), var(--info-light) 0.125rem, transparent 0.125rem, transparent 100%);
+}
+
+.progress-bar-indeterminate.bg-info::after, .progress-bar-indeterminate.bg-info::before {
+  background-color: var(--info);
+}
+
+.progress-bar-indeterminate.bg-info {
+  border-bottom-color: var(--info-light);
+}
+
+.progress-circular-info .progress-circular-gap,
+.progress-circular-info .progress-circular-spinner {
+  border-top-color: var(--info);
+}
+
+.progress-circular-info .progress-circular-left .progress-circular-spinner {
+  border-left-color: var(--info);
+}
+
+.progress-circular-info .progress-circular-right .progress-circular-spinner {
+  border-right-color: var(--info);
+}
+
+.border-info {
+  border-color: var(--info) !important;
+}
+
+.bg-info {
+  background-color: var(--info) !important;
+}
+
+a.bg-info:active, a.bg-info:focus, a.bg-info:hover {
+  background-color: var(--info-dark) !important;
+}
+
+a.text-info:active, a.text-info:focus, a.text-info:hover {
+  color: var(--info-dark) !important;
+}
+
+.text-info {
+  color: var(--info) !important;
+}

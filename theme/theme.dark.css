@@ -1,0 +1,166 @@
+:root {
+  --dark: #424242;
+  --dark-dark: #212121;
+  --dark-light: #757575;
+}
+
+
+.alert-dark {
+  background-color: var(--dark-light);
+  color: white;
+}
+
+.badge-dark {
+  background-color: var(--dark);
+  color: white;
+}
+
+.badge-dark[href]:active, .badge-dark[href]:focus, .badge-dark[href]:hover {
+  background-color: var(--dark-dark);
+  color: white;
+}
+
+.btn-dark {
+  background-color: var(--dark);
+  color: white;
+}
+
+.btn-dark.active, .btn-dark:active {
+  background-color: var(--dark-dark);
+}
+
+.btn-group > .btn-dark.disabled, .btn-group > .btn-dark:disabled,
+.btn-group-vertical > .btn-dark.disabled,
+.btn-group-vertical > .btn-dark:disabled {
+  background-color: var(--dark-light);
+  color: white;
+}
+
+.btn-flat-dark, .btn-flat-dark:active, .btn-flat-dark:focus, .btn-flat-dark:hover,
+.btn-outline-dark,
+.btn-outline-dark:active,
+.btn-outline-dark:focus,
+.btn-outline-dark:hover {
+  color: var(--dark);
+}
+
+.card.border-dark {
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.14), 0 3px 4px 0 rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px var(--dark);
+}
+
+.card.border-dark[href]:active, .card.border-dark[href]:focus, .card.border-dark[href]:hover, .card.border-dark[tabindex]:active, .card.border-dark[tabindex]:focus, .card.border-dark[tabindex]:hover {
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 3px rgba(0, 0, 0, 0.12), 0 4px 15px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px var(--dark);
+}
+
+.chip-dark {
+  background-color: var(--dark);
+  color: white;
+}
+
+.table-hover .table-dark:hover,
+.table-hover .table-dark:hover > td,
+.table-hover .table-dark:hover > th {
+  background-color: var(--dark);
+  color: white;
+}
+
+.table .thead-dark td,
+.table .thead-dark th {
+  background-color: var(--dark);
+  color: white;
+}
+
+.table-dark {
+  background-color: var(--dark);
+  color: white;
+}
+
+.table-dark.table-hover tbody tr:hover {
+  background-color: var(--dark-dark);
+}
+
+.table-dark,
+.table-dark > td,
+.table-dark > th {
+  background-color: var(--dark-light);
+  color: white;
+}
+
+.modal-footer .btn-dark, .modal-footer .btn-dark:active, .modal-footer .btn-dark:focus, .modal-footer .btn-dark:hover {
+  color: var(--dark);
+}
+
+.list-group-item-dark.active {
+  background-color: var(--dark);
+  color: white;
+}
+
+.list-group-item-dark.list-group-item-action:active, .list-group-item-dark.list-group-item-action:focus, .list-group-item-dark.list-group-item-action:hover {
+  background-color: var(--dark);
+  color: white;
+}
+
+.list-group-item-dark {
+  background-color: var(--dark-light);
+  color: white;
+}
+
+.progress-bar.bg-dark::after {
+  background-color: var(--dark-light);
+}
+
+.progress-bar-animated.bg-dark::before,
+.progress-bar-striped.bg-dark::before {
+  background-image: repeating-radial-gradient(0.125rem 0.125rem, var(--dark-light), var(--dark-light) 0.125rem, transparent 0.125rem, transparent 100%);
+  background-image: -webkit-repeating-radial-gradient(0.125rem 0.125rem, var(--dark-light), var(--dark-light) 0.125rem, transparent 0.125rem, transparent 100%);
+  background-image: -moz-repeating-radial-gradient(0.125rem 0.125rem, var(--dark-light), var(--dark-light) 0.125rem, transparent 0.125rem, transparent 100%);
+}
+
+.progress-bar-indeterminate.bg-dark {
+  border-bottom-color: var(--dark-light);
+}
+
+.progress-bar-indeterminate.bg-dark::after, .progress-bar-indeterminate.bg-dark::before {
+  background-color: var(--dark);
+}
+
+.progress-circular-dark .progress-circular-gap,
+.progress-circular-dark .progress-circular-spinner {
+  border-top-color: var(--dark);
+}
+
+.progress-circular-dark .progress-circular-left .progress-circular-spinner {
+  border-left-color: var(--dark);
+}
+
+.progress-circular-dark .progress-circular-right .progress-circular-spinner {
+  border-right-color: var(--dark);
+}
+
+.border-dark {
+  border-color: var(--dark) !important;
+}
+
+.bg-dark {
+  background-color: var(--dark) !important;
+}
+
+.bg-dark-2 {
+  background-color: var(--dark-dark) !important;
+}
+
+.bg-dark-4 {
+  background-color: var(--dark) !important;
+}
+
+a.bg-dark:active, a.bg-dark:focus, a.bg-dark:hover {
+  background-color: var(--dark-dark) !important;
+}
+
+.text-dark {
+  color: var(--dark) !important;
+}
+
+a.text-dark:active, a.text-dark:focus, a.text-dark:hover {
+  color: var(--dark-dark) !important;
+}

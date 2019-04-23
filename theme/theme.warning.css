@@ -1,0 +1,142 @@
+:root {
+  --warning: #ff9800;
+  --warning-dark: #f57c00;
+  --warning-light: #ffe0b2;
+}
+
+.alert-warning {
+  background-color: var(--warning-light);
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.badge-warning {
+  background-color: var(--warning);
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.btn-warning {
+  background-color: var(--warning);
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.btn-group > .btn-warning.disabled, .btn-group > .btn-warning:disabled,
+.btn-group-vertical > .btn-warning.disabled,
+.btn-group-vertical > .btn-warning:disabled {
+  background-color: var(--warning-light);
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.badge-warning[href]:active, .badge-warning[href]:focus, .badge-warning[href]:hover {
+  background-color: var(--warning-dark);
+  color: white;
+  text-decoration: none;
+}
+
+.btn-flat-warning, .btn-flat-warning:active, .btn-flat-warning:focus, .btn-flat-warning:hover,
+.btn-outline-warning,
+.btn-outline-warning:active,
+.btn-outline-warning:focus,
+.btn-outline-warning:hover {
+  color: var(--warning);
+}
+
+.btn-warning.active, .btn-warning:active {
+  background-color: var(--warning-dark);
+}
+
+.card.border-warning {
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.14), 0 3px 4px 0 rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px var(--warning);
+}
+
+.card.border-warning[href]:active, .card.border-warning[href]:focus, .card.border-warning[href]:hover, .card.border-warning[tabindex]:active, .card.border-warning[tabindex]:focus, .card.border-warning[tabindex]:hover {
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 3px rgba(0, 0, 0, 0.12), 0 4px 15px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px var(--warning);
+}
+
+.chip-warning {
+  background-color: var(--warning);
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.table-hover .table-warning:hover,
+.table-hover .table-warning:hover > td,
+.table-hover .table-warning:hover > th {
+  background-color: var(--warning);
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.table-warning,
+.table-warning > td,
+.table-warning > th {
+  background-color: var(--warning-light);
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.modal-footer .btn-warning, .modal-footer .btn-warning:active, .modal-footer .btn-warning:focus, .modal-footer .btn-warning:hover {
+  color: var(--warning);
+}
+
+.list-group-item-warning.active {
+  background-color: var(--warning);
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.list-group-item-warning.list-group-item-action:active, .list-group-item-warning.list-group-item-action:focus, .list-group-item-warning.list-group-item-action:hover {
+  background-color: var(--warning);
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.list-group-item-warning {
+  background-color: var(--warning-light);
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.progress-bar.bg-warning {
+  background-color: transparent !important;
+  border-bottom-color: var(--warning);
+}
+
+.progress-bar-animated.bg-warning::before,
+.progress-bar-striped.bg-warning::before {
+  background-image: repeating-radial-gradient(0.125rem 0.125rem, var(--warning-light), var(--warning-light) 0.125rem, transparent 0.125rem, transparent 100%);
+  background-image: -webkit-repeating-radial-gradient(0.125rem 0.125rem, var(--warning-light), var(--warning-light) 0.125rem, transparent 0.125rem, transparent 100%);
+  background-image: -moz-repeating-radial-gradient(0.125rem 0.125rem, var(--warning-light), var(--warning-light) 0.125rem, transparent 0.125rem, transparent 100%);
+}
+
+.progress-bar-indeterminate.bg-warning::after, .progress-bar-indeterminate.bg-warning::before {
+  background-color: var(--warning);
+}
+.progress-bar-indeterminate.bg-warning {
+  border-bottom-color: var(--warning-light);
+}
+.progress-bar.bg-warning::after {
+  background-color: var(--warning-light);
+}
+
+.progress-circular-warning .progress-circular-gap,
+.progress-circular-warning .progress-circular-spinner {
+  border-top-color: var(--warning);
+}
+
+.progress-circular-warning .progress-circular-left .progress-circular-spinner {
+  border-left-color: var(--warning);
+}
+
+.border-warning {
+  border-color: var(--warning) !important;
+}
+
+.bg-warning {
+  background-color: var(--warning) !important;
+}
+
+a.bg-warning:active, a.bg-warning:focus, a.bg-warning:hover {
+  background-color: var(--warning-dark) !important;
+}
+
+.text-warning {
+  color: var(--warning) !important;
+}
+
+a.text-warning:active, a.text-warning:focus, a.text-warning:hover {
+  color: var(--warning-dark) !important;
+}

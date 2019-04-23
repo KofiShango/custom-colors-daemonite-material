@@ -1,0 +1,293 @@
+:root {
+  --secondary: #ff4081;
+  --secondary-dark: #f50057;
+  --secondary-light: #ff80ab;
+}
+
+/* A */
+a {
+  background-color: transparent;
+  color: var(--secondary);
+  text-decoration: none;
+  -webkit-text-decoration-skip: objects;
+}
+
+a:active, a:focus, a:hover {
+  color: var(--secondary);
+  text-decoration: underline;
+}
+
+.alert-secondary {
+  background-color: var(--secondary-light);
+  color: rgba(0, 0, 0, 0.87);
+}
+
+/* Badge */
+
+.badge-secondary {
+  background-color: var(--secondary);
+  color: white;
+}
+.badge-secondary[href]:active, .badge-secondary[href]:focus, .badge-secondary[href]:hover {
+  background-color: var(--secondary-dark);
+  color: white;
+  text-decoration: none;
+}
+
+/* Nav */
+
+.nav-pills .nav-link.active {
+  color: var(--secondary);
+  opacity: 1;
+}
+
+/* Button */
+.btn-secondary {
+  background-color: var(--secondary);
+  color: white;
+}
+
+.btn-secondary.active, .btn-secondary:active {
+  background-color: var(--secondary-dark);
+}
+
+.btn-link {
+  color: var(--secondary);
+}
+
+.btn-link:active, .btn-link:focus, .btn-link:hover {
+  color: var(--secondary);
+}
+
+.btn-flat-secondary, .btn-flat-secondary:active, .btn-flat-secondary:focus, .btn-flat-secondary:hover,
+.btn-outline-secondary,
+.btn-outline-secondary:active,
+.btn-outline-secondary:focus,
+.btn-outline-secondary:hover {
+  color: var(--secondary);
+}
+
+.btn-group > .btn-secondary.disabled, .btn-group > .btn-secondary:disabled,
+.btn-group-vertical > .btn-secondary.disabled,
+.btn-group-vertical > .btn-secondary:disabled {
+  background-color: var(--secondary-light);
+  color: rgba(0, 0, 0, 0.87);
+}
+
+/* Card */
+.card.border-secondary {
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.14), 0 3px 4px 0 rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px var(--secondary);
+}
+
+.card.border-secondary[href]:active, .card.border-secondary[href]:focus, .card.border-secondary[href]:hover, .card.border-secondary[tabindex]:active, .card.border-secondary[tabindex]:focus, .card.border-secondary[tabindex]:hover {
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 3px rgba(0, 0, 0, 0.12), 0 4px 15px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px var(--secondary);
+}
+
+/* Chip */
+.chip-secondary {
+  background-color: var(--secondary);
+  color: white;
+}
+
+.chip-icon {
+  background-color: var(--secondary);
+  color: white;
+}
+
+/* Table */
+.table-hover .table-secondary:hover,
+.table-hover .table-secondary:hover > td,
+.table-hover .table-secondary:hover > th {
+  background-color: var(--secondary);
+  color: white;
+}
+
+.table-secondary,
+.table-secondary > td,
+.table-secondary > th {
+  background-color: var(--secondary-light);
+  color: rgba(0, 0, 0, 0.87);
+}
+
+/* Modal */
+.modal-footer .btn-secondary, .modal-footer .btn-secondary:active, .modal-footer .btn-secondary:focus, .modal-footer .btn-secondary:hover {
+  color: var(--secondary);
+}
+
+/* List Group */
+.list-group-item-secondary.active {
+  background-color: var(--secondary);
+  color: white;
+}
+
+.list-group-item-secondary.list-group-item-action:active, .list-group-item-secondary.list-group-item-action:focus, .list-group-item-secondary.list-group-item-action:hover {
+  background-color: var(--secondary);
+  color: white;
+}
+
+.list-group-item-secondary {
+  background-color: var(--secondary-light);
+  color: rgba(0, 0, 0, 0.87);
+}
+
+/* Picker */
+.picker-input.picker-input-active {
+  border-bottom-color: var(--secondary);
+}
+
+/* Progress */
+.progress-bar.bg-secondary {
+  border-bottom-color: var(--secondary);
+}
+.progress-bar.bg-secondary::after {
+  background-color: var(--secondary-light);
+}
+.progress-bar-indeterminate.bg-secondary::after, .progress-bar-indeterminate.bg-secondary::before {
+  background-color: var(--secondary);
+}
+
+.progress-circular-secondary .progress-circular-gap,
+.progress-circular-secondary .progress-circular-spinner {
+  border-top-color: var(--secondary);
+}
+
+.progress-bar-animated.bg-secondary::before,
+.progress-bar-striped.bg-secondary::before {
+  background-image: repeating-radial-gradient(0.125rem 0.125rem, var(--secondary-light), var(--secondary-light) 0.125rem, transparent 0.125rem, transparent 100%);
+  background-image: -webkit-repeating-radial-gradient(0.125rem 0.125rem, var(--secondary-light), var(--secondary-light) 0.125rem, transparent 0.125rem, transparent 100%);
+  background-image: -moz-repeating-radial-gradient(0.125rem 0.125rem, var(--secondary-light), var(--secondary-light) 0.125rem, transparent 0.125rem, transparent 100%);
+}
+
+.progress-bar-indeterminate.bg-secondary {
+  border-bottom-color: var(--secondary-light);
+}
+
+
+.progress-circular-secondary .progress-circular-left .progress-circular-spinner {
+  border-left-color: var(--secondary);
+}
+
+.progress-circular-secondary .progress-circular-right .progress-circular-spinner {
+  border-right-color: var(--secondary);
+}
+
+/* Custom Control Inputs */
+
+.custom-control-input:checked ~ .custom-control-label::after {
+  color: var(--secondary);
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  background-color: var(--secondary);
+}
+
+.custom-switch .custom-control-input:checked ~ .custom-control-label::after {
+  background-color: var(--secondary);
+}
+
+.custom-range::-moz-range-progress {
+  background-color: var(--secondary);
+}
+
+.custom-range::-moz-range-thumb {
+  background-color: var(--secondary);
+}
+
+.custom-range::-ms-fill-lower {
+  background-color: var(--secondary);
+}
+
+.custom-range::-ms-thumb {
+  background-color: var(--secondary);
+}
+
+.custom-range::-ms-thumb:active {
+  box-shadow: 0 0 0 0.375rem var(--secondary);
+}
+
+.custom-range::-webkit-slider-thumb {
+  background-color: var(--secondary);
+}
+
+.custom-range::-webkit-slider-thumb:active {
+  box-shadow: 0 0 0 0.375rem var(--secondary);
+}
+
+/* Snackbar */
+.snackbar-btn {
+  color: var(--secondary);
+}
+
+/* Nav Tab */
+.nav-tabs .nav-link.active {
+  color: var(--secondary);
+}
+
+.nav-tabs .nav-link::before {
+  background-color: var(--secondary);
+}
+
+.nav-tabs-material .nav-tabs-indicator {
+  background-color: var(--secondary);
+}
+
+/* Form Control */
+.form-control:focus, .custom-select:focus, .form-control-file:focus {
+  border-color: var(--secondary);
+  box-shadow: inset 0 -2px 0 -1px var(--secondary);
+}
+
+select.form-control:focus[multiple], select.form-control:focus[size]:not([size='1']), textarea.form-control:focus:not([rows='1']), .custom-select:focus[multiple], .custom-select:focus[size]:not([size='1']) {
+  box-shadow: inset 2px 2px 0 -1px var(--secondary), inset -2px -2px 0 -1px var(--secondary);
+}
+
+.snackbar-btn:focus, .snackbar-btn:hover {
+  color: var(--secondary-light);
+  text-decoration: none;
+}
+
+/* Custom file input */
+.custom-file-input:focus ~ .custom-file-label, .custom-file-input:hover ~ .custom-file-label {
+  border-bottom-color: var(--secondary);
+  box-shadow: inset 0 -2px 0 -1px var(--secondary);
+}
+
+.textfield-box select.form-control:focus[multiple], .textfield-box select.form-control:focus[size]:not([size='1']), .textfield-box textarea.form-control:focus:not([rows='1']), .textfield-box .custom-select:focus[multiple], .textfield-box .custom-select:focus[size]:not([size='1']) {
+  box-shadow: inset 0 -2px 0 -1px var(--secondary);
+}
+
+.floating-label.is-focused label {
+  color: var(--secondary);
+}
+
+.floating-label.is-focused ~ .input-group-icon,
+.form-control:focus ~ .input-group-icon {
+  color: var(--secondary);
+}
+
+.border-secondary {
+  border-color: var(--secondary) !important;
+}
+
+.bg-secondary {
+  background-color: var(--secondary) !important;
+}
+
+a.bg-secondary:active, a.bg-secondary:focus, a.bg-secondary:hover {
+  background-color: var(--secondary-dark) !important;
+}
+
+.bg-secondary-dark {
+  background-color: var(--secondary-dark) !important;
+}
+.bg-secondary-light {
+  background-color: var(--secondary-light) !important;
+}
+
+.text-secondary {
+  color: var(--secondary) !important;
+}
+
+a.text-secondary:active, a.text-secondary:focus, a.text-secondary:hover {
+  color: var(--secondary-dark) !important;
+}
